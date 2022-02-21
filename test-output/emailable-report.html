@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Learning Suite</th></tr>
+<tr><td><a href="#t0">LoginTest</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">249</td><td>high, low, medium</td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Validate Test </a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">63</td><td>high, low, medium</td><td></td></tr>
+<tr><td><a href="#t2">Dependency Test</a></td><td class="num">0</td><td class="num attn">3</td><td class="num">0</td><td class="num attn">2</td><td class="num">57</td><td>high, low, medium</td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Try Catch Test </a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">28</td><td>high, low, medium</td><td></td></tr>
+<tr><td><a href="#t4">Listener </a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">32</td><td>high, low, medium</td><td></td></tr>
+<tr><th>Total</th><th class="num">5</th><th class="num attn">3</th><th class="num">0</th><th class="num attn">6</th><th class="num">429</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Learning Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">LoginTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">TestNGLearning.TestCase1</td><td><a href="#m0">doLogin</a></td><td rowspan="1">1613926065248</td><td rowspan="1">21</td></tr><tr class="passedeven"><td><a href="#m1">doUserReg</a></td><td rowspan="1">1613926065120</td><td rowspan="1">28</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Validate Test  &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestNGLearning.TestCase2</td><td><a href="#m2">multipleSoftAssertsAll</a></td><td rowspan="1">1613926066376</td><td rowspan="1">3</td></tr><tr><th colspan="4">Validate Test  &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">TestNGLearning.TestCase2</td><td><a href="#m3">isElementFound</a></td><td rowspan="1">1613926066340</td><td rowspan="1">10</td></tr><tr class="passedeven"><td><a href="#m4">multipleSoftAsserts</a></td><td rowspan="1">1613926066355</td><td rowspan="1">15</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Dependency Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">TestNGLearning.TestCase3</td><td><a href="#m5">doUserReg</a></td><td rowspan="1">1613926066503</td><td rowspan="1">6</td></tr><tr class="failedeven"><td><a href="#m6">doUserReg2</a></td><td rowspan="1">1613926066519</td><td rowspan="1">4</td></tr><tr><th colspan="4">Dependency Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">TestNGLearning.TestCase3</td><td><a href="#m7">doLoin</a></td><td rowspan="1">1613926066535</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m8">isSkip</a></td><td rowspan="1">1613926066542</td><td rowspan="1">1</td></tr><tr class="skippedeven"><td><a href="#m9">isSkip2</a></td><td rowspan="1">1613926066546</td><td rowspan="1">4</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Try Catch Test  &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestNGLearning.TestCase4TryCatch</td><td><a href="#m10">doUserReg</a></td><td rowspan="1">1613926066653</td><td rowspan="1">3</td></tr><tr><th colspan="4">Try Catch Test  &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TestNGLearning.TestCase4TryCatch</td><td><a href="#m11">doUserReg2</a></td><td rowspan="1">1613926066665</td><td rowspan="1">9</td></tr></tbody>
+<tbody id="t4"><tr><th colspan="4">Listener  &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">TestNGLearning.TestCase5Listener</td><td><a href="#m12">doUserReg</a></td><td rowspan="1">1613926066732</td><td rowspan="1">2</td></tr><tr class="failedeven"><td><a href="#m13">doUserReg2</a></td><td rowspan="1">1613926066738</td><td rowspan="1">3</td></tr></tbody>
+</table>
+<h2>LoginTest</h2><h3 id="m0">TestNGLearning.TestCase1#doLogin</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">#### -- Inside Do User Login Test of TestCase 1</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TestNGLearning.TestCase1#doUserReg</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Validate Test </h2><h3 id="m2">TestNGLearning.TestCase2#multipleSoftAssertsAll</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href="D:\WorkSpace\eclipse-workspace\Selenium\screenshot\error.jpg" target="_blank">Capture Screenshot from ListenerTest.</a> <br/><br><br/><a href="D:\WorkSpace\eclipse-workspace\Selenium\screenshot\error.jpg" target="_blank"><img src="D:\WorkSpace\eclipse-workspace\Selenium\screenshot\error.jpg" height=100 width=100></a> </div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	expected [Gmail.com] but found [Yahoo.com],
+	-&gt; Forcefully failed.
+	at TestNGLearning.TestCase2.multipleSoftAssertsAll(TestCase2.java:93)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">TestNGLearning.TestCase2#isElementFound</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">TestNGLearning.TestCase2#multipleSoftAsserts</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Dependency Test</h2><h3 id="m5">TestNGLearning.TestCase3#doUserReg</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href="D:\WorkSpace\eclipse-workspace\Selenium\screenshot\error.jpg" target="_blank">Capture Screenshot from ListenerTest.</a> <br/><br><br/><a href="D:\WorkSpace\eclipse-workspace\Selenium\screenshot\error.jpg" target="_blank"><img src="D:\WorkSpace\eclipse-workspace\Selenium\screenshot\error.jpg" height=100 width=100></a> </div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Test Case failed
+	at TestNGLearning.TestCase3.doUserReg(TestCase3.java:13)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">TestNGLearning.TestCase3#doUserReg2</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href="D:\WorkSpace\eclipse-workspace\Selenium\screenshot\error.jpg" target="_blank">Capture Screenshot from ListenerTest.</a> <br/><br><br/><a href="D:\WorkSpace\eclipse-workspace\Selenium\screenshot\error.jpg" target="_blank"><img src="D:\WorkSpace\eclipse-workspace\Selenium\screenshot\error.jpg" height=100 width=100></a> </div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Test Case failed
+	at TestNGLearning.TestCase3.doUserReg2(TestCase3.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">TestNGLearning.TestCase3#doLoin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method TestCase3.doLoin()[pri:2, instance:TestNGLearning.TestCase3@63787180] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">TestNGLearning.TestCase3#isSkip</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: isSkip : Skipping the tes as condition is not met.
+	at TestNGLearning.TestCase3.isSkip(TestCase3.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">TestNGLearning.TestCase3#isSkip2</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: isSkip2 : Skipping the test as condition is not met.
+	at TestNGLearning.TestCase3.isSkip2(TestCase3.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Try Catch Test </h2><h3 id="m10">TestNGLearning.TestCase4TryCatch#doUserReg</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Capture Screen Shot : Failed and Reported <br/><a href="D:\WorkSpace\eclipse-workspace\Selenium\screenshot\error.jpg" target="_blank">Capture Screenshot from ListenerTest.</a> <br/><br><br/><a href="D:\WorkSpace\eclipse-workspace\Selenium\screenshot\error.jpg" target="_blank"><img src="D:\WorkSpace\eclipse-workspace\Selenium\screenshot\error.jpg" height=100 width=100></a> </div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Test Case failed
+	at TestNGLearning.TestCase4TryCatch.doUserReg(TestCase4TryCatch.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">TestNGLearning.TestCase4TryCatch#doUserReg2</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Capture Screen Shot : FAiled but not reported</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Listener </h2><h3 id="m12">TestNGLearning.TestCase5Listener#doUserReg</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href="D:\WorkSpace\eclipse-workspace\Selenium\screenshot\error.jpg" target="_blank">Capture Screenshot from ListenerTest.</a> <br/><br><br/><a href="D:\WorkSpace\eclipse-workspace\Selenium\screenshot\error.jpg" target="_blank"><img src="D:\WorkSpace\eclipse-workspace\Selenium\screenshot\error.jpg" height=100 width=100></a> </div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Test Case failed
+	at TestNGLearning.TestCase5Listener.doUserReg(TestCase5Listener.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">TestNGLearning.TestCase5Listener#doUserReg2</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href="D:\WorkSpace\eclipse-workspace\Selenium\screenshot\error.jpg" target="_blank">Capture Screenshot from ListenerTest.</a> <br/><br><br/><a href="D:\WorkSpace\eclipse-workspace\Selenium\screenshot\error.jpg" target="_blank"><img src="D:\WorkSpace\eclipse-workspace\Selenium\screenshot\error.jpg" height=100 width=100></a> </div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Test Case failed
+	at TestNGLearning.TestCase5Listener.doUserReg2(TestCase5Listener.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

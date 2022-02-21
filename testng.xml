@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Learning Suite">
+
+	
+
+	<groups> <!-- Check comment out the group as well -->
+		<run>
+			<include name="low" /> <!-- <exclude name="low" /> -->
+			<include name="high" />
+			<include name="medium" />
+			<!-- <exclude name = "medium" /> -->
+		</run>
+	</groups>
+
+	<listeners>
+		<listener class-name="TestNGLearning.ListenerTest"></listener>
+		<listener class-name="extentlisteners.ExtentListeners"></listener>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+		
+	</listeners>
+
+	<test name="LoginTest">
+		<classes>
+			<class name="TestNGLearning.TestCase1" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Validate Test ">
+		<classes>
+			<class name="TestNGLearning.TestCase2" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Dependency Test">
+		<classes>
+			<class name="TestNGLearning.TestCase3" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Try Catch Test ">
+		<classes>
+			<class name="TestNGLearning.TestCase4TryCatch" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Listener ">
+		<classes>
+			<class name="TestNGLearning.TestCase5Listener" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

@@ -1,0 +1,35 @@
+INFO    2021-02-20 13:59:05,361 [main] _02_WebElements.Letc06_Log4j  - OR Properties Loaded
+INFO    2021-02-20 13:59:05,364 [main] _02_WebElements.Letc06_Log4j  - Config Properties File Loaded.
+INFO    2021-02-20 13:59:09,696 [main] _02_WebElements.Letc06_Log4j  - Chrome browser launched.
+INFO    2021-02-20 13:59:17,081 [main] _02_WebElements.Letc06_Log4j  - Navigated to : http://gmail.com
+INFO    2021-02-20 13:59:17,473 [main] _02_WebElements.Letc06_Log4j  - Username entered : vishal.op.arora@gmail.com !!!
+INFO    2021-02-20 13:59:17,646 [main] _02_WebElements.Letc06_Log4j  - Clicking on Next Button. !!!
+INFO    2021-02-20 13:59:21,544 [main] _02_WebElements.Letc06_Log4j  - Test execution completed. !!!
+INFO    2021-02-20 14:00:08,422 [main] _02_WebElements.Letc06_Log4j  - OR Properties Loaded
+INFO    2021-02-20 14:00:08,428 [main] _02_WebElements.Letc06_Log4j  - Config Properties File Loaded.
+INFO    2021-02-20 14:00:12,867 [main] _02_WebElements.Letc06_Log4j  - Chrome browser launched.
+INFO    2021-02-20 14:00:18,225 [main] _02_WebElements.Letc06_Log4j  - Navigated to : http://gmail.com
+INFO    2021-02-20 14:00:18,659 [main] _02_WebElements.Letc06_Log4j  - Username entered : vishal.op.arora@gmail.com !!!
+INFO    2021-02-20 14:00:18,842 [main] _02_WebElements.Letc06_Log4j  - Clicking on Next Button. !!!
+INFO    2021-02-20 14:00:22,753 [main] _02_WebElements.Letc06_Log4j  - Test execution completed. !!!
+INFO    2021-02-20 14:02:54,866 [main] _02_WebElements.Letc06_Log4j  - OR Properties Loaded
+INFO    2021-02-20 14:02:54,873 [main] _02_WebElements.Letc06_Log4j  - Config Properties File Loaded.
+INFO    2021-02-20 14:02:59,433 [main] _02_WebElements.Letc06_Log4j  - Chrome browser launched.
+INFO    2021-02-20 14:03:05,763 [main] _02_WebElements.Letc06_Log4j  - Navigated to : http://gmail.com
+INFO    2021-02-20 14:03:06,171 [main] _02_WebElements.Letc06_Log4j  - Username entered : vishal.op.arora@gmail.com !!!
+INFO    2021-02-20 14:03:06,379 [main] _02_WebElements.Letc06_Log4j  - Clicking on Next Button. !!!
+INFO    2021-02-20 14:03:10,630 [main] _02_WebElements.Letc06_Log4j  - Test execution completed. !!!
+INFO    2021-02-20 14:04:28,471 [main] _02_WebElements.Letc06_Log4j  - OR Properties Loaded
+INFO    2021-02-20 14:04:28,474 [main] _02_WebElements.Letc06_Log4j  - Config Properties File Loaded.
+INFO    2021-02-20 14:04:32,329 [main] _02_WebElements.Letc06_Log4j  - Chrome browser launched.
+INFO    2021-02-20 14:04:36,014 [main] _02_WebElements.Letc06_Log4j  - Navigated to : http://gmail.com
+INFO    2021-02-20 14:04:36,329 [main] _02_WebElements.Letc06_Log4j  - Username entered : vishal.op.arora@gmail.com !!!
+INFO    2021-02-20 14:04:36,513 [main] _02_WebElements.Letc06_Log4j  - Clicking on Next Button. !!!
+INFO    2021-02-20 14:04:40,306 [main] _02_WebElements.Letc06_Log4j  - Test execution completed. !!!
+INFO    2021-02-20 14:23:49,625 [main] _02_WebElements.Letc06_Log4j  - OR Properties Loaded
+INFO    2021-02-20 14:23:49,628 [main] _02_WebElements.Letc06_Log4j  - Config Properties File Loaded.
+INFO    2021-02-20 14:23:53,588 [main] _02_WebElements.Letc06_Log4j  - Chrome browser launched.
+INFO    2021-02-20 14:23:58,570 [main] _02_WebElements.Letc06_Log4j  - Navigated to : http://gmail.com
+INFO    2021-02-20 14:23:58,989 [main] _02_WebElements.Letc06_Log4j  - Typing in an Element : username_ID  enter a value as : vishal.op.arora@gmail.com
+INFO    2021-02-20 14:23:59,180 [main] _02_WebElements.Letc06_Log4j  - Clicking on an Element : nextBtn_XPATH
+INFO    2021-02-20 14:24:03,514 [main] _02_WebElements.Letc06_Log4j  - Test execution completed. !!!
