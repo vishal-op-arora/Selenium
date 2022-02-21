@@ -68,6 +68,9 @@ public class Lect04_CheckBox {
 		for(WebElement checkbox : checkboxes2) {
 			checkbox.click();
 		}
+		
+		Thread.sleep(3000);
+		driver.close();
 	}
 
 }
